@@ -1,0 +1,19 @@
+.about {
+    & > :last-child {
+        margin-bottom:0;
+    }
+}
+
+.about__img {
+    float:left;
+    margin-right:$base-spacing-unit;
+    margin-bottom:$base-spacing-unit;
+
+    @include media-query(desk) {
+        margin-bottom:0;
+    }
+}
+
+.about__me {
+    font-weight:400;
+}

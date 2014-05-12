@@ -1,0 +1,18 @@
+.foot {
+    padding:$half-spacing-unit 0;
+
+    a {
+        color:darken($blue, 30%);
+
+        &:hover {
+            color:darken($blue, 40%);
+        }
+    }
+}
+
+.foot__hosted {
+}
+
+.foot__local {
+    text-align:right;
+}

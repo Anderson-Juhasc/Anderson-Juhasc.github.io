@@ -1,0 +1,39 @@
+$blue:   #30A2D1;
+$orange: #f16529;
+$yellow: #f0db4f;
+
+@import  'inuit.css/inuit'
+        ,'compass'
+        ,'ui/icons'
+        ,'ui/head'
+        ,'ui/logo'
+        ,'ui/main'
+        ,'ui/about'
+        ,'ui/contact'
+        ,'ui/qrcode'
+        ,'ui/social'
+        ,'ui/skill'
+        ,'ui/foot';
+
+body {
+    background-color:$blue;
+    color:#fff;
+}
+
+a {
+    color:$blue;
+    text-decoration:none;
+
+    &:hover {
+        color:darken($blue, 10%);
+    }
+}
+
+.wrapper {
+    margin:0 auto;
+    width:90%;
+
+    @include media-query(desk) {
+        width:960px;
+    }
+}

@@ -1,0 +1,25 @@
+.qrcode {
+    text-align:center;
+}
+
+.qrcode__item {
+    @include inline-block();
+    @include border-radius(3px);
+
+    background-color:#FFF;
+    color:#666;
+    padding:$half-spacing-unit;
+}
+
+.qrcode__item-public-key {
+    display:block;
+    margin-bottom:$half-spacing-unit / 2;
+
+    > img {
+        display:block;
+    }
+}
+
+.qrcode__item-accepted-text {
+    margin-bottom:0;
+}

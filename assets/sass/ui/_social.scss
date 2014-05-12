@@ -1,0 +1,14 @@
+.social {
+    list-style:none;
+    margin:0;
+
+    > li {
+        @include inline-block(middle);
+
+        margin-right:$half-spacing-unit;
+
+        &:last-child {
+            margin-right:0;
+        }
+    }
+}
