@@ -840,7 +840,7 @@ textarea:focus {
  * and over in your markup.
  */
 /* line 10, ../sass/inuit.css/generic/_clearfix.scss */
-.cf:after {
+.cf:after, .nav:after {
   content: "";
   display: table;
   clear: both;
@@ -1861,6 +1861,146 @@ label,
   width: 100%;
   padding-left: 24px;
   vertical-align: top;
+}
+
+/*------------------------------------*\
+    $NAV
+\*------------------------------------*/
+/**
+ * Nav abstraction as per: csswizardry.com/2011/09/the-nav-abstraction
+ * When used on an `ol` or `ul`, this class throws the list into horizontal mode
+ * e.g.:
+ *
+   <ul class=nav>
+       <li><a href=#>Home</a></li>
+       <li><a href=#>About</a></li>
+       <li><a href=#>Portfolio</a></li>
+       <li><a href=#>Contact</a></li>
+   </ul>
+ *
+ * Demo: jsfiddle.net/inuitcss/Vnph4
+ *
+ */
+/* line 21, ../sass/inuit.css/objects/_nav.scss */
+.nav {
+  list-style: none;
+  margin-left: 0;
+}
+/* line 29, ../sass/inuit.css/objects/_nav.scss */
+.nav > li,
+.nav > li > a {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+}
+
+/**
+ * `.nav--stacked` extends `.nav` and throws the list into vertical mode, e.g.:
+ *
+   <ul class="nav  nav--stacked">
+       <li><a href=#>Home</a></li>
+       <li><a href=#>About</a></li>
+       <li><a href=#>Portfolio</a></li>
+       <li><a href=#>Contact</a></li>
+   </ul>
+ *
+ */
+/* line 51, ../sass/inuit.css/objects/_nav.scss */
+.nav--stacked > li {
+  display: list-item;
+}
+/* line 54, ../sass/inuit.css/objects/_nav.scss */
+.nav--stacked > li > a {
+  display: block;
+}
+
+/**
+ * `.nav--banner` extends `.nav` and centres the list, e.g.:
+ *
+   <ul class="nav  nav--banner">
+       <li><a href=#>Home</a></li>
+       <li><a href=#>About</a></li>
+       <li><a href=#>Portfolio</a></li>
+       <li><a href=#>Contact</a></li>
+   </ul>
+ *
+ */
+/* line 72, ../sass/inuit.css/objects/_nav.scss */
+.nav--banner {
+  text-align: center;
+}
+
+/**
+ * Give nav links a big, blocky hit area. Extends `.nav`, e.g.:
+ *
+   <ul class="nav  nav--block">
+       <li><a href=#>Home</a></li>
+       <li><a href=#>About</a></li>
+       <li><a href=#>Portfolio</a></li>
+       <li><a href=#>Contact</a></li>
+   </ul>
+ *
+ */
+/* line 88, ../sass/inuit.css/objects/_nav.scss */
+.nav--block {
+  line-height: 1;
+  /**
+   * Remove whitespace caused by `inline-block`.
+   */
+  letter-spacing: -0.31em;
+  word-spacing: -0.43em;
+  white-space: nowrap;
+}
+/* line 97, ../sass/inuit.css/objects/_nav.scss */
+.nav--block > li {
+  letter-spacing: normal;
+  word-spacing: normal;
+}
+/* line 101, ../sass/inuit.css/objects/_nav.scss */
+.nav--block > li > a {
+  padding: 12px;
+}
+
+/**
+ * Force a nav to occupy 100% of the available width of its parent. Extends
+ * `.nav`, e.g.:
+ *
+   <ul class="nav  nav--fit">
+       <li><a href=#>Home</a></li>
+       <li><a href=#>About</a></li>
+       <li><a href=#>Portfolio</a></li>
+       <li><a href=#>Contact</a></li>
+   </ul>
+ *
+ * Thanks to @pimpl for this idea!
+ */
+/* line 121, ../sass/inuit.css/objects/_nav.scss */
+.nav--fit {
+  display: table;
+  width: 100%;
+}
+/* line 125, ../sass/inuit.css/objects/_nav.scss */
+.nav--fit > li {
+  display: table-cell;
+}
+/* line 128, ../sass/inuit.css/objects/_nav.scss */
+.nav--fit > li > a {
+  display: block;
+}
+
+/**
+ * Make a list of keywords. Extends `.nav`, e.g.:
+ *
+   `<ul class="nav  nav--keywords>`
+ *
+ */
+/* line 145, ../sass/inuit.css/objects/_nav.scss */
+.nav--keywords > li:after {
+  content: "\002C" "\00A0";
+}
+/* line 149, ../sass/inuit.css/objects/_nav.scss */
+.nav--keywords > li:last-child:after {
+  display: none;
 }
 
 /**
@@ -3355,6 +3495,12 @@ label,
   font-style: italic;
 }
 
+/* line 16, ../sass/ui/_logo.scss */
+.logo__icon {
+  position: relative;
+  top: 5px;
+}
+
 /* line 1, ../sass/ui/_main.scss */
 .main {
   background-color: #FFF;
@@ -3469,29 +3615,23 @@ label,
   padding: 24px 0;
   text-align: center;
 }
-@media only screen and (min-width: 1024px) {
-  /* line 4, ../sass/ui/_skill.scss */
-  .skill__item {
-    margin-bottom: 0;
-  }
-}
 
-/* line 16, ../sass/ui/_skill.scss */
+/* line 12, ../sass/ui/_skill.scss */
 .skill__item--html {
   background-color: #f16529;
 }
 
-/* line 20, ../sass/ui/_skill.scss */
+/* line 16, ../sass/ui/_skill.scss */
 .skill__item--css {
   background-color: #30a2d1;
 }
 
-/* line 24, ../sass/ui/_skill.scss */
+/* line 20, ../sass/ui/_skill.scss */
 .skill__item--js {
   background-color: #f0db4f;
 }
 
-/* line 28, ../sass/ui/_skill.scss */
+/* line 24, ../sass/ui/_skill.scss */
 .skill__btn {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #dddddd));
   background-image: -webkit-linear-gradient(#ffffff, #dddddd);
@@ -3510,7 +3650,7 @@ label,
   text-align: center;
   padding: 25px;
 }
-/* line 39, ../sass/ui/_skill.scss */
+/* line 35, ../sass/ui/_skill.scss */
 .skill__btn:hover {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #dddddd), color-stop(100%, #ffffff));
   background-image: -webkit-linear-gradient(#dddddd, #ffffff);
@@ -3518,12 +3658,23 @@ label,
   background-image: -o-linear-gradient(#dddddd, #ffffff);
   background-image: linear-gradient(#dddddd, #ffffff);
 }
-/* line 43, ../sass/ui/_skill.scss */
+/* line 39, ../sass/ui/_skill.scss */
 .skill__btn:active {
   -webkit-box-shadow: inset 0 3px 12px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: inset 0 3px 12px rgba(0, 0, 0, 0.1);
   box-shadow: inset 0 3px 12px rgba(0, 0, 0, 0.1);
   background: #fff;
+}
+
+/* line 46, ../sass/ui/_skill.scss */
+.skill__help {
+  margin-bottom: 24px;
+}
+@media only screen and (min-width: 1024px) {
+  /* line 46, ../sass/ui/_skill.scss */
+  .skill__help {
+    margin-bottom: 0;
+  }
 }
 
 /* line 1, ../sass/ui/_foot.scss */
