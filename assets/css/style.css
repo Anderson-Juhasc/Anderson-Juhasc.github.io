@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /*------------------------------------*\
     INUIT.CSS
 \*------------------------------------*/
@@ -2945,13 +2944,13 @@ label,
  */
 /* line 8, ../sass/inuit.css/generic/_brand.scss */
 .brand {
-  font-family: "Open Sans", Arial, sans-serif!important;
+  font-family: "Ubuntu", Arial, sans-serif!important;
   color: #4a8ec2!important;
 }
 
 /* line 12, ../sass/inuit.css/generic/_brand.scss */
 .brand-face {
-  font-family: "Open Sans", Arial, sans-serif!important;
+  font-family: "Ubuntu", Arial, sans-serif!important;
 }
 
 /* line 16, ../sass/inuit.css/generic/_brand.scss */
