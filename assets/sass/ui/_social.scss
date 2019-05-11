@@ -3,7 +3,8 @@
     margin:0;
 
     > li {
-        @include inline-block(middle);
+        display: inline-block;
+        vertical-align: middle;
 
         margin-right:$half-spacing-unit;
 

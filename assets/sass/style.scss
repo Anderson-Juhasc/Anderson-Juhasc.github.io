@@ -3,7 +3,6 @@ $orange: #f16529;
 $yellow: #f0db4f;
 
 @import  'inuit.css/inuit'
-        ,'compass'
         ,'ui/icons'
         ,'ui/head'
         ,'ui/logo'
@@ -34,6 +33,6 @@ a {
     width:90%;
 
     @include media-query(desk) {
-        width:960px;
+        width:1024px;
     }
 }

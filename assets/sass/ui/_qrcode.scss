@@ -3,8 +3,9 @@
 }
 
 .qrcode__item {
-    @include inline-block();
-    @include border-radius(3px);
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 3px;
 
     background-color:#FFF;
     color:#666;
