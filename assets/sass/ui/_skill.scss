@@ -1,52 +1,41 @@
-.skill {
-}
-
 .skill__item {
-    font-weight:700;
-    line-height:1.2;
-    margin-bottom:$base-spacing-unit;
-    padding:$base-spacing-unit 0;
-    text-align:center;
+  font-weight:700;
+  line-height:1.2;
+  margin-bottom:$base-spacing-unit;
+  padding:$base-spacing-unit 0;
+  text-align:center;
+  text-shadow: 1px 1px 0 rgba(#000, 0.35);
 }
 
 .skill__item--html {
-    background-color:$orange;
+  background-color:$orange;
 }
 
 .skill__item--css {
-    background-color:$blue;
+  background-color:$blue;
 }
 
 .skill__item--js {
-    background-color:$yellow;
+  background-color:$yellow;
 }
 
-.skill__btn {
-    //@include background-image(linear-gradient(white, #dddddd));
-    border-radius: 3px;
+.skill__nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  > li {
+    display: inline-block;
 
-    color:#555;
-    font-size:26px;
-    font-weight:bold;
-    display:block;
-    text-align:center;
-    padding:25px;
-
-    &:hover {
-        //@include background-image(linear-gradient(#dddddd, white));
+    &:after {
+      content: "\002C" "\00A0";
     }
 
-    &:active {
-        //@include box-shadow(inset 0 3px 12px rgba(#000, .1));
+    &:last-child {
 
-        background:#fff;
+      &:after {
+        content: "";
+      }
     }
+  }
 }
 
-.skill__help {
-    margin-bottom:$base-spacing-unit;
-
-    @include media-query(desk) {
-        margin-bottom:0;
-    }
-}

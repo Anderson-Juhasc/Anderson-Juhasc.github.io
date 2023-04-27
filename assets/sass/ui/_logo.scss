@@ -1,19 +1,21 @@
 .logo {
+  font-size:3em;
+  font-weight:800;
+  line-height:1;
+  margin-bottom:($base-spacing-unit * 2) + ($half-spacing-unit / 2);
+  text-align:center;
+
+  @include media-query(lap) {
     font-size:4em;
-    font-weight:800;
-    line-height:1;
-    margin-bottom:($base-spacing-unit * 2) + ($half-spacing-unit / 2);
-    text-align:center;
+  }
 }
 
 .logo__for {
-    background-color:$blue;
-    color:#fff;
-    font-weight:400;
-    font-style:italic;
+  background-color:$blue;
+  color:#fff;
 }
 
 .logo__icon {
-    position:relative;
-    top:5px;
+  position:relative;
+  top:5px;
 }

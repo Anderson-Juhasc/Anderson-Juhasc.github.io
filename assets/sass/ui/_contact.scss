@@ -2,11 +2,11 @@
 }
 
 .contact__email {
-    @include media-query(lap-and-up) {
-        & > :last-child {
-            margin-bottom:0;
-        }
-    }
+    //@include media-query(lap-and-up) {
+    //    & > :last-child {
+    //        margin-bottom:0;
+    //    }
+    //}
 }
 
 .contact__social {

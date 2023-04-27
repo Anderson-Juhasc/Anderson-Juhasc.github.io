@@ -1,19 +1,21 @@
 .about {
-    & > :last-child {
-        margin-bottom:0;
-    }
+  & > :last-child {
+    margin-bottom:0;
+  }
 }
 
 .about__img {
-    float:left;
-    margin-right:$base-spacing-unit;
-    margin-bottom:$base-spacing-unit;
+  border: 4px solid #000000;
+  border-right: 4px solid $blue;
+  box-sizing: border-box;
+  margin-right:$base-spacing-unit;
+  margin-bottom:$base-spacing-unit;
 
-    @include media-query(desk) {
-        margin-bottom:0;
-    }
+  @include media-query(lap) {
+    float:left;
+  }
 }
 
 .about__me {
-    font-weight:400;
+  font-weight:400;
 }

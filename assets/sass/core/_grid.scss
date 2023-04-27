@@ -1,0 +1,199 @@
+@use "sass:math";
+
+@function percentage($n1, $n2) {
+  @return math.div($n1, $n2) * 100%;
+}
+
+// Define variables for the grid breakpoints
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+);
+
+// Define the container styles
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+
+  // Define media query breakpoints for the container
+  @media (min-width: map-get($grid-breakpoints, sm)) {
+    max-width: 540px;
+  }
+  @media (min-width: map-get($grid-breakpoints, md)) {
+    max-width: 720px;
+  }
+  @media (min-width: map-get($grid-breakpoints, lg)) {
+    max-width: 960px;
+  }
+  @media (min-width: map-get($grid-breakpoints, xl)) {
+    max-width: 1140px;
+  }
+}
+
+// Define the row styles
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+
+// Define the column styles
+.col {
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+
+  &-auto {
+    flex: 0 0 auto;
+    width: auto;
+    max-width: none;
+  }
+  &-1 {
+    flex: 0 0 percentage(1, 12);
+    max-width: percentage(1, 12);
+  }
+  &-2 {
+    flex: 0 0 percentage(2, 12);
+    max-width: percentage(2, 12);
+  }
+  &-3 {
+    flex: 0 0 percentage(3, 12);
+    max-width: percentage(3, 12);
+  }
+  &-4 {
+    flex: 0 0 percentage(4, 12);
+    max-width: percentage(4, 12);
+  }
+  &-5 {
+    flex: 0 0 percentage(5, 12);
+    max-width: percentage(5, 12);
+  }
+  &-6 {
+    flex: 0 0 percentage(6, 12);
+    max-width: percentage(6, 12);
+  }
+  &-7 {
+    flex: 0 0 percentage(7, 12);
+    max-width: percentage(7, 12);
+  }
+  &-8 {
+    flex: 0 0 percentage(8, 12);
+    max-width: percentage(8, 12);
+  }
+  &-9 {
+    flex: 0 0 percentage(9, 12);
+    max-width: percentage(9, 12);
+  }
+  &-10 {
+    flex: 0 0 percentage(10, 12);
+    max-width: percentage(10, 12);
+  }
+  &-11 {
+    flex: 0 0 percentage(11, 12);
+    max-width: percentage(11, 12);
+  }
+  &-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  // Generate responsive width classes for each breakpoint
+  @each $breakpoint, $size in $grid-breakpoints {
+    @if $breakpoint != xs {
+      @media (min-width: $size) {
+        &-#{$breakpoint}-auto {
+          flex: 0 0 auto;
+          width: auto;
+          max-width: none;
+        }
+        &-#{$breakpoint}-1 {
+          flex: 0 0 percentage(1, 12);
+          max-width: percentage(1, 12);
+        }
+        &-#{$breakpoint}-2 {
+          flex: 0 0 percentage(2, 12);
+          max-width: percentage(2, 12);
+        }
+        &-#{$breakpoint}-3 {
+          flex: 0 0 percentage(3, 12);
+          max-width: percentage(3, 12);
+        }
+        &-#{$breakpoint}-4 {
+          flex: 0 0 percentage(4, 12);
+          max-width: percentage(4, 12);
+        }
+        &-#{$breakpoint}-5 {
+          flex: 0 0 percentage(5, 12);
+          max-width: percentage(5, 12);
+        }
+        &-#{$breakpoint}-6 {
+          flex: 0 0 percentage(6, 12);
+          max-width: percentage(6, 12);
+        }
+        &-#{$breakpoint}-7 {
+          flex: 0 0 percentage(7, 12);
+          max-width: percentage(7, 12);
+        }
+        &-#{$breakpoint}-8 {
+          flex: 0 0 percentage(8, 12);
+          max-width: percentage(8, 12);
+        }
+        &-#{$breakpoint}-9 {
+          flex: 0 0 percentage(9, 12);
+          max-width: percentage(9, 12);
+        }
+        &-#{$breakpoint}-10 {
+          flex: 0 0 percentage(10, 12);
+          max-width: percentage(10, 12);
+        }
+        &-#{$breakpoint}-11 {
+          flex: 0 0 percentage(11, 12);
+          max-width: percentage(11, 12);
+        }
+        &-#{$breakpoint}-12 {
+          flex: 0 0 100%;
+          max-width: 100%;
+        }
+      }
+    }
+  }
+}
+
+/* Define the helper classes for horizontal and vertical alignment */
+.align-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.align-start {
+  justify-content: flex-start;
+}
+
+.align-end {
+  justify-content: flex-end;
+}
+
+.v-align-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.v-align-start {
+  align-items: flex-start;
+}
+
+.v-align-end {
+  align-items: flex-end;
+}
