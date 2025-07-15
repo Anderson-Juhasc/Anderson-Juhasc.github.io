@@ -1,0 +1,223 @@
+{
+  "Metadata": {
+    "locale": "en",
+    "title": "Anderson Juhasc | Full-stack Developer & Web Designer",
+    "description": "Full-stack Developer & Web Designer with over 10 years of experience in custom digital solutions, SEO, Bitcoin, and innovative design.",
+    "keywords": [
+      "Full-stack Developer",
+      "Web Designer",
+      "Web Development",
+      "Bitcoin Solutions",
+      "UI/UX",
+      "Anderson Juhasc",
+      "Freelancer",
+      "SEO",
+      "Sao Paulo"
+    ],
+    "og": {
+      "title": "Anderson Juhasc | Full-stack Developer & Web Designer",
+      "description": "Turning ideas into high-performance digital solutions. Websites, apps, Bitcoin, design, and more."
+    },
+    "twitter": {
+      "title": "Anderson Juhasc",
+      "description": "Full-stack Developer & Web Designer focused on results."
+    }
+  },
+  "Header": {
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "skills": "Skills",
+      "projects": "Projects",
+      "services": "Services",
+      "testimonials": "Testimonials",
+      "contact": "Contact"
+    }
+  },
+  "Hero": {
+    "greeting": "Hello, I'm",
+    "name": "Anderson Juhasc",
+    "title": "Full-stack Developer & Web Designer",
+    "description": "Transforming ideas into high-performance digital solutions",
+    "viewProjects": "View Projects",
+    "getInTouch": "Get in Touch",
+    "technologies": "Technologies",
+    "imageAlt": "Anderson Juhasc - Full-stack Developer"
+  },
+  "About": {
+    "title": "About Me",
+    "subtitle": "Learn more about my journey and experience",
+    "headline": "Full-stack Developer & Designer focused on results",
+    "paragraphs": [
+      "With over 10 years of experience in developing comprehensive web solutions, I combine advanced technical skills with a strong design vision to create high-performance projects.",
+      "I'm passionate about Open-source technologies, innovative Web Design, and Bitcoin, and I'm always seeking new challenges and opportunities globally.",
+      "My mission is to help businesses and entrepreneurs achieve their goals through customized digital solutions that bring measurable results."
+    ],
+    "location": "Sao Paulo, Brazil",
+    "email": "anderson.juhasc@gmail.com",
+    "workflow": "Workflow: Linux, VIM e GIT",
+    "startProject": "Start a Project",
+    "downloadCV": "Download CV"
+  },
+  "Skills": {
+    "title": "My Skills",
+    "subtitle": "Technologies and expertise I bring to your projects",
+    "cta": {
+      "text": "Looking for a specific technology or skill that's not listed?",
+      "button": "Let's discuss your project"
+    }
+  },
+  "Services": {
+    "title": "My Services",
+    "subtitle": "Custom solutions for your digital needs",
+    "items": {
+      "web": {
+        "icon": "fas fa-code",
+        "title": "Web Development",
+        "description": "Creation of modern, responsive, SEO-optimized websites and web applications.",
+        "features": [
+          "Corporate websites",
+          "E-commerce",
+          "Custom platforms",
+          "Microsites"
+        ]
+      },
+      "mobile": {
+        "icon": "fas fa-mobile-alt",
+        "title": "Mobile Applications",
+        "description": "Development of responsive and hybrid web apps for mobile devices.",
+        "features": [
+          "Progressive Web Apps",
+          "Hybrid applications",
+          "Responsive interfaces",
+          "API integrations"
+        ]
+      },
+      "bitcoin": {
+        "icon": "fa-brands fa-bitcoin",
+        "title": "Bitcoin Solutions",
+        "description": "Implementation of Bitcoin-based solutions and blockchain technologies for your business.",
+        "features": [
+          "Payment integration",
+          "Wallet development",
+          "Smart contracts",
+          "Technical consulting"
+        ]
+      },
+      "design": {
+        "icon": "fas fa-paint-brush",
+        "title": "Web Design",
+        "description": "Modern, intuitive interface design focused on user experience and conversions.",
+        "features": [
+          "UI/UX Design",
+          "Website redesign",
+          "Responsive design",
+          "Conversion optimization"
+        ]
+      }
+    },
+    "button": "Request a quote"
+  },
+  "Portfolio": {
+    "title": "My Projects",
+    "subtitle": "Explore some of the projects I've developed",
+    "filters": {
+      "all": "All",
+      "web": "Web",
+      "bitcoin": "Bitcoin",
+      "design": "Design",
+      "opensource": "Open Source"
+    },
+    "projects": {
+      "bip84": {
+        "title": "BIP84",
+        "description": "NPM package for Bitcoin BIP84 (Bech32) implementation",
+        "details": "Node.js, NPM Package, Bitcoin, Open Source"
+      },
+      "cryptoIntro": {
+        "title": "Introduction to Cryptocurrencies",
+        "description": "Introductory course about Bitcoin and cryptocurrencies",
+        "details": "Course, Introduction, Bitcoin, Open Source"
+      }
+    },
+    "cta": "Let’s work together"
+  },
+  "Testimonials": {
+    "title": "Testimonials",
+    "subtitle": "What people say about my work",
+    "list": [
+      {
+        "text": "There are three reasons why I’m writing this testimonial for Anderson: Quality, Speed, and Support. The project exceeded expectations in complexity and was even delivered ahead of schedule. All of this, combined with great support, makes him a reliable partner for upcoming projects we are about to launch.",
+        "name": "Carlos Duarte",
+        "role": "CEO, Agência imaginis"
+      },
+      {
+        "text": "Great professional partner, works really well!",
+        "name": "Jefferson Capanema",
+        "role": "Director, Example Company"
+      },
+      {
+        "text": "Excellent partner for designing websites!",
+        "name": "Thiago Ricieri Trivelato",
+        "role": "Director, Example Company"
+      }
+    ]
+  },
+  "Faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Common questions about my services",
+    "questions": [
+      {
+        "question": "What is the average timeframe to develop a website?",
+        "answer": "The timeframe depends on the complexity of the project. A simple institutional website may take 2 to 4 weeks, while more complex projects such as e-commerce sites or custom platforms can take 1 to 3 months."
+      },
+      {
+        "question": "How does the development process work?",
+        "answer": "The process includes: 1) Requirements gathering and briefing, 2) Planning and architecture, 3) Interface design, 4) Development, 5) Testing and adjustments, 6) Launch, and 7) Support. I maintain continuous communication throughout each phase to ensure expectations are met."
+      },
+      {
+        "question": "Do you offer maintenance services after delivery?",
+        "answer": "Yes, I offer monthly maintenance plans that include security updates, bug fixes, minor improvements, and performance monitoring."
+      }
+    ]
+  },
+  "Contact": {
+    "title": "Contact",
+    "subtitle": "Let's talk about your project",
+    "info": {
+      "email": {
+        "label": "Email",
+        "value": "anderson.juhasc@gmail.com"
+      },
+      "location": {
+        "label": "Location",
+        "city": "São Paulo, Brazil",
+        "note": "Available for remote projects worldwide"
+      },
+      "social": {
+        "label": "Social Media"
+      }
+    },
+    "form": {
+      "name": "Your Name",
+      "email": "Your Email",
+      "subject": "Subject",
+      "message": "Your Message",
+      "submit": "Send Message",
+      "whatsapp": "Start conversation"
+    }
+  },
+  "Footer": {
+    "name": "Anderson Juhasc",
+    "title": "Full-stack Developer & Web Designer",
+    "quickLinksTitle": "Quick Links",
+    "quickLinks": {
+      "home": "Home",
+      "about": "About",
+      "skills": "Skills",
+      "portfolio": "Projects",
+      "contact": "Contact"
+    },
+    "socialTitle": "Social Media"
+  }
+}

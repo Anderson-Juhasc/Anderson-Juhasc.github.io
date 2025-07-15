@@ -1,0 +1,223 @@
+{
+  "Metadata": {
+    "locale": "pt",
+    "title": "Anderson Juhasc | Desenvolvedor Full-stack & Web Designer",
+    "description": "Desenvolvedor Full-stack & Web Designer com mais de 10 anos de experiência em soluções digitais personalizadas, SEO, Bitcoin e design inovador.",
+    "keywords": [
+      "Desenvolvedor Full-stack",
+      "Web Designer",
+      "Desenvolvimento Web",
+      "Soluções Bitcoin",
+      "UI/UX",
+      "Anderson Juhasc",
+      "Freelancer",
+      "SEO",
+      "São Paulo"
+    ],
+    "og": {
+      "title": "Anderson Juhasc | Desenvolvedor Full-stack & Web Designer",
+      "description": "Transformando ideias em soluções digitais de alta performance. Sites, apps, Bitcoin, design e mais."
+    },
+    "twitter": {
+      "title": "Anderson Juhasc",
+      "description": "Desenvolvedor Full-stack & Web Designer com foco em resultados."
+    }
+  },
+  "Header": {
+    "nav": {
+      "home": "Home",
+      "about": "Sobre",
+      "skills": "Habilidades",
+      "projects": "Projetos",
+      "services": "Serviços",
+      "testimonials": "Depoimentos",
+      "contact": "Contato"
+    }
+  },
+  "Hero": {
+    "greeting": "Olá, eu sou",
+    "name": "Anderson Juhasc",
+    "title": "Full-stack Developer & Web Designer",
+    "description": "Transformando ideias em soluções digitais de alta performance",
+    "viewProjects": "Ver Projetos",
+    "getInTouch": "Fale Comigo",
+    "technologies": "Tecnologias",
+    "imageAlt": "Anderson Juhasc - Full-stack Developer & Web Designer"
+  },
+  "About": {
+    "title": "Sobre Mim",
+    "subtitle": "Conheça mais sobre minha trajetória e experiência",
+    "headline": "Desenvolvedor Full-stack & Web Designer com foco em resultados",
+    "paragraphs": [
+      "Com mais de 10 anos de experiência no desenvolvimento de soluções web completas e integradas, combino habilidades técnicas avançadas com uma forte visão de design para criar projetos de alta performance.",
+      "Sou apaixonado por tecnologias Open-source, Web Design inovador e Bitcoin, e estou sempre buscando novos desafios e oportunidades globalmente.",
+      "Minha missão é ajudar empresas e empreendedores a alcançarem seus objetivos através de soluções digitais personalizadas que tragam resultados mensuráveis."
+    ],
+    "location": "São Paulo, Brasil",
+    "email": "anderson.juhasc@gmail.com",
+    "workflow": "Workflow: Linux, VIM e GIT",
+    "startProject": "Iniciar um Projeto",
+    "downloadCV": "Download CV"
+  },
+  "Skills": {
+    "title": "Minhas Habilidades",
+    "subtitle": "Tecnologias e expertise que trago para seus projetos",
+    "cta": {
+      "text": "Procurando por uma tecnologia ou habilidade específica que não está listada?",
+      "button": "Vamos discutir seu projeto"
+    }
+  },
+  "Services": {
+    "title": "Meus Serviços",
+    "subtitle": "Soluções personalizadas para suas necessidades digitais",
+    "items": {
+      "web": {
+        "icon": "fas fa-code",
+        "title": "Desenvolvimento Web",
+        "description": "Criação de sites, plataformas e aplicações web modernas, responsivas e otimizadas para SEO.",
+        "features": [
+          "Sites institucionais",
+          "E-commerces",
+          "Plataformas personalizadas",
+          "Microsites"
+        ]
+      },
+      "mobile": {
+        "icon": "fas fa-mobile-alt",
+        "title": "Aplicações Mobile",
+        "description": "Desenvolvimento de aplicativos web responsivos e híbridos para dispositivos móveis.",
+        "features": [
+          "Progressive Web Apps",
+          "Aplicativos híbridos",
+          "Interfaces responsivas",
+          "Integrações com APIs"
+        ]
+      },
+      "bitcoin": {
+        "icon": "fa-brands fa-bitcoin",
+        "title": "Soluções Bitcoin",
+        "description": "Implementação de soluções baseadas em Bitcoin e tecnologias blockchain para seu negócio.",
+        "features": [
+          "Integração de pagamentos",
+          "Desenvolvimento de carteiras",
+          "Smart contracts",
+          "Consultoria técnica"
+        ]
+      },
+      "design": {
+        "icon": "fas fa-paint-brush",
+        "title": "Web Design",
+        "description": "Design de interfaces modernas e intuitivas focadas na experiência do usuário e conversões.",
+        "features": [
+          "UI/UX Design",
+          "Redesign de sites",
+          "Design responsivo",
+          "Otimização de conversão"
+        ]
+      }
+    },
+    "button": "Solicitar orçamento"
+  },
+  "Portfolio": {
+    "title": "Meus Projetos",
+    "subtitle": "Conheça alguns dos projetos que desenvolvi",
+    "filters": {
+      "all": "Todos",
+      "web": "Web",
+      "bitcoin": "Bitcoin",
+      "design": "Design",
+      "opensource": "Open Source"
+    },
+    "projects": {
+      "bip84": {
+        "title": "BIP84",
+        "description": "Pacote NPM para implementação BIP84 Bitcoin (Bech32)",
+        "details": "Node.js, NPM Package, Bitcoin, Opensource"
+      },
+      "cryptoIntro": {
+        "title": "Introdução a Criptomoedas",
+        "description": "Curso introdutório sobre Bitcoin e criptomoedas",
+        "details": "Curso, introdução, Bitcoin, Opensource"
+      }
+    },
+    "cta": "Vamos trabalhar juntos"
+  },
+  "Testimonials": {
+    "title": "Depoimentos",
+    "subtitle": "O que dizem sobre meu trabalho",
+    "list": [
+      {
+        "text": "São três os motivos que me levam a criar este depoimento ao Anderson: Qualidade, Agilidade e Atendimento. O trabalho executado surpreendeu pelo grau de complexidade, aliado ao fato de ter finalizado o mesmo antes do prazo final. Isso tudo agregado a um ótimo atendimento, fazem dele um parceiro confiável para os próximos projetos que estamos em vias de executar.",
+        "name": "Carlos Duarte",
+        "role": "CEO, Agência imaginis"
+      },
+      {
+        "text": "Ótimo parceiro profissional, trabalha muito bem!",
+        "name": "Jefferson Capanema",
+        "role": "Diretor, Empresa Exemplo"
+      },
+      {
+        "text": "Ótimo parceiro para projetar websites!",
+        "name": "Thiago Ricieri Trivelato",
+        "role": "Diretor, Empresa Exemplo"
+      }
+    ]
+  },
+  "Faq": {
+    "title": "Perguntas Frequentes",
+    "subtitle": "Dúvidas comuns sobre meus serviços",
+    "questions": [
+      {
+        "question": "Qual é o prazo médio para desenvolvimento de um site?",
+        "answer": "O prazo varia de acordo com a complexidade do projeto. Um site institucional simples pode levar de 2 a 4 semanas, enquanto projetos mais complexos como e-commerces ou plataformas customizadas podem levar de 1 a 3 meses."
+      },
+      {
+        "question": "Como funciona o processo de desenvolvimento?",
+        "answer": "O processo inclui: 1) Levantamento de requisitos e briefing, 2) Planejamento e arquitetura, 3) Design de interfaces, 4) Desenvolvimento, 5) Testes e ajustes, 6) Lançamento e 7) Suporte. Em cada etapa, mantenho comunicação contínua para garantir que o projeto atenda às expectativas."
+      },
+      {
+        "question": "Você oferece serviços de manutenção após a entrega?",
+        "answer": "Sim, ofereço planos de manutenção mensal que incluem atualizações de segurança, correções de bugs, pequenas melhorias e monitoramento de performance."
+      }
+    ]
+  },
+  "Contact": {
+    "title": "Contato",
+    "subtitle": "Vamos conversar sobre seu projeto",
+    "info": {
+      "email": {
+        "label": "Email",
+        "value": "anderson.juhasc@gmail.com"
+      },
+      "location": {
+        "label": "Localização",
+        "city": "São Paulo, Brasil",
+        "note": "Disponível para projetos remotos globalmente"
+      },
+      "social": {
+        "label": "Redes Sociais"
+      }
+    },
+    "form": {
+      "name": "Seu Nome",
+      "email": "Seu Email",
+      "subject": "Assunto",
+      "message": "Sua Mensagem",
+      "submit": "Enviar Mensagem",
+      "whatsapp": "Iniciar conversa"
+    }
+  },
+  "Footer": {
+    "name": "Anderson Juhasc",
+    "title": "Full-stack Developer & Web Designer",
+    "quickLinksTitle": "Links Rápidos",
+    "quickLinks": {
+      "home": "Home",
+      "about": "Sobre",
+      "skills": "Habilidades",
+      "portfolio": "Projetos",
+      "contact": "Contato"
+    },
+    "socialTitle": "Redes Sociais"
+  }
+}

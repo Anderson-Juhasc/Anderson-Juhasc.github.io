@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://andersonjuhasc.com
+
+# Sitemaps
+Sitemap: https://andersonjuhasc.com/sitemap.xml
