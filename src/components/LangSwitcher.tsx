@@ -10,7 +10,7 @@ export default function LangSwitcher() {
 
   return (
     <div className="lang-dropdown">
-      <a
+      <button
         onClick={toggleDropdown}
         aria-haspopup="listbox"
         aria-expanded={open}
@@ -18,11 +18,11 @@ export default function LangSwitcher() {
       >
         <img src="/globe.svg" alt="Language" />
         <span className="arrow">{open ? "▲" : "▼"}</span>
-      </a>
+      </button>
       {open && (
         <ul className="lang-options" role="listbox" tabIndex={-1}>
           <li role="option">
-            <Link href="/en" lang="en" onClick={() => setOpen(false)}>
+            <Link href="/" lang="en" onClick={() => setOpen(false)}>
               English
             </Link>
           </li>
