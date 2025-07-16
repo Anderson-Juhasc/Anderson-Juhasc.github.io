@@ -1,4 +1,5 @@
 import { useTranslations } from "next-intl";
+import ContactForm from "@/components/ContactForm";
 
 export default function Contact() {
   const t = useTranslations("Contact");
@@ -40,7 +41,11 @@ export default function Contact() {
                 {t("info.social.label")}
               </h3>
               <nav className="social-links">
-                <a href="https://github.com/Anderson-Juhasc" title="Github" target="_blank">
+                <a
+                  href="https://github.com/Anderson-Juhasc"
+                  title="Github"
+                  target="_blank"
+                >
                   <i className="fab fa-github"></i>
                 </a>
                 <a
@@ -69,46 +74,7 @@ export default function Contact() {
             </div>
           </div>
           <div className="contact-form">
-            <form id="contactForm" action="process_form.php" method="POST">
-              <div className="form-group">
-                <input
-                  type="text"
-                  name="name"
-                  id="name"
-                  placeholder={t("form.name")}
-                  required
-                />
-              </div>
-              <div className="form-group">
-                <input
-                  type="email"
-                  name="email"
-                  id="email"
-                  placeholder={t("form.email")}
-                  required
-                />
-              </div>
-              <div className="form-group">
-                <input
-                  type="text"
-                  name="subject"
-                  id="subject"
-                  placeholder={t("form.subject")}
-                  required
-                />
-              </div>
-              <div className="form-group">
-                <textarea
-                  name="message"
-                  id="message"
-                  placeholder={t("form.message")}
-                  required
-                ></textarea>
-              </div>
-              <button type="submit" className="btn-primary">
-                {t("form.submit")}
-              </button>
-            </form>
+            <ContactForm />
           </div>
         </div>
       </div>

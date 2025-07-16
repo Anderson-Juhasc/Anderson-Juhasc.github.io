@@ -204,7 +204,7 @@
       "subject": "Assunto",
       "message": "Sua Mensagem",
       "submit": "Enviar Mensagem",
-      "whatsapp": "Iniciar conversa"
+      "submitted": "Enviando..."
     }
   },
   "Footer": {
@@ -219,5 +219,10 @@
       "contact": "Contato"
     },
     "socialTitle": "Redes Sociais"
+  },
+  "ThankYou": {
+    "title": "Obrigado!",
+    "message": "Sua mensagem foi enviada com sucesso.",
+    "button": "Voltar"
   }
 }

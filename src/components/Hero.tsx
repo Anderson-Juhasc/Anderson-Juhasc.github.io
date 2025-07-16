@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 
 export default function Hero() {
@@ -33,7 +34,13 @@ export default function Hero() {
           </div>
         </div>
         <div className="hero-image">
-          <img src="/agj.png" alt={ t('imageAlt') } />
+          <Image
+            src="/agj.png"
+            alt={t("imageAlt")}
+            width={300}
+            height={450}
+            priority
+          />
         </div>
       </div>
     </section>

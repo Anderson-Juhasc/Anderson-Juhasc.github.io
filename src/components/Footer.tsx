@@ -15,26 +15,40 @@ export default function Footer() {
             <h4>{t("quickLinksTitle")}</h4>
             <ul>
               <li>
-                <a href="#home" title={t("quickLinks.home")}>{t("quickLinks.home")}</a>
+                <a href="#home" title={t("quickLinks.home")}>
+                  {t("quickLinks.home")}
+                </a>
               </li>
               <li>
-                <a href="#about" title={t("quickLinks.about")}>{t("quickLinks.about")}</a>
+                <a href="#about" title={t("quickLinks.about")}>
+                  {t("quickLinks.about")}
+                </a>
               </li>
               <li>
-                <a href="#skills" title={t("quickLinks.skills")}>{t("quickLinks.skills")}</a>
+                <a href="#skills" title={t("quickLinks.skills")}>
+                  {t("quickLinks.skills")}
+                </a>
               </li>
               <li>
-                <a href="#portfolio" title={t("quickLinks.portfolio")}>{t("quickLinks.portfolio")}</a>
+                <a href="#portfolio" title={t("quickLinks.portfolio")}>
+                  {t("quickLinks.portfolio")}
+                </a>
               </li>
               <li>
-                <a href="#contact" title={t("quickLinks.contact")}>{t("quickLinks.contact")}</a>
+                <a href="#contact" title={t("quickLinks.contact")}>
+                  {t("quickLinks.contact")}
+                </a>
               </li>
             </ul>
           </nav>
           <div className="footer-social">
             <h4>{t("socialTitle")}</h4>
             <nav className="social-links">
-              <a href="https://github.com/Anderson-Juhasc" title="Github" target="_blank">
+              <a
+                href="https://github.com/Anderson-Juhasc"
+                title="Github"
+                target="_blank"
+              >
                 <i className="fab fa-github"></i>
               </a>
               <a
