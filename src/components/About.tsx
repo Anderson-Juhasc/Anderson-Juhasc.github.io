@@ -50,13 +50,6 @@ export default function About() {
               <a href="#contact" className="btn-primary">
                 {t("startProject")}
               </a>
-              <a
-                href="assets/docs/curriculo-anderson-juhasc.pdf"
-                className="btn-secondary"
-                download
-              >
-                {t("downloadCV")}
-              </a>
             </div>
           </div>
         </div>
