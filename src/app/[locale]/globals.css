@@ -441,14 +441,14 @@ p {
   color: var(--text-white);
 }
 
-.hero-content h2 {
+.hero-content span {
   font-size: 1.5rem;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.8);
   margin-bottom: var(--spacing-xs);
 }
 
-.hero-content h3 {
+.hero-content h2 {
   font-size: 2rem;
   background-image: linear-gradient(
     45deg,

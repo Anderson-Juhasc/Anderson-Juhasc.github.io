@@ -7,9 +7,9 @@ export default function Hero() {
     <section id="home" className="hero">
       <div className="container">
         <div className="hero-content">
-          <h2>{t("greeting")}</h2>
+          <span>{t("greeting")}</span>
           <h1>{t("name")}</h1>
-          <h3>{t("title")}</h3>
+          <h2>{t("title")}</h2>
           <p>{t("description")}</p>
           <div className="hero-buttons">
             <a href="#portfolio" className="btn-primary">
@@ -33,7 +33,7 @@ export default function Hero() {
           </div>
         </div>
         <div className="hero-image">
-          <img src="/agj.png" alt="{ t('imageAlt') }" />
+          <img src="/agj.png" alt={ t('imageAlt') } />
         </div>
       </div>
     </section>
