@@ -137,8 +137,14 @@
         "class": "bitcoin nostr design opensource",
         "image": "/como-tornar-se-um-desenvolvedor-nostr.jpg",
         "links": [
-          { "icon": "fas fa-book", "href": "https://github.com/nostrlivros/como-tornar-se-um-desenvolvedor-nostr/raw/main/index.pdf" },
-          { "icon": "fab fa-github", "href": "https://github.com/nostrlivros/como-tornar-se-um-desenvolvedor-nostr/" }
+          {
+            "icon": "fas fa-book",
+            "href": "https://github.com/nostrlivros/como-tornar-se-um-desenvolvedor-nostr/raw/main/index.pdf"
+          },
+          {
+            "icon": "fab fa-github",
+            "href": "https://github.com/nostrlivros/como-tornar-se-um-desenvolvedor-nostr/"
+          }
         ]
       },
       "nosjobs": {
@@ -149,7 +155,11 @@
         "image": "/nosjobs.jpg",
         "links": [
           { "icon": "fas fa-link", "href": "https://nosjobs.space/" },
-          { "image": "/nostr.svg", "alt": "Nostr", "href": "https://njump.me/npub10j5hz4l6l9ea6u2nut0r66v5d07lsqjaj4jl80sf0phyanaduefsnkc4cn" },
+          {
+            "image": "/nostr.svg",
+            "alt": "Nostr",
+            "href": "https://njump.me/npub10j5hz4l6l9ea6u2nut0r66v5d07lsqjaj4jl80sf0phyanaduefsnkc4cn"
+          },
           { "icon": "fab fa-github", "href": "https://github.com/nosjobs" }
         ]
       },
@@ -160,8 +170,14 @@
         "class": "bitcoin opensource",
         "image": "/npm.png",
         "links": [
-          { "icon": "fas fa-link", "href": "https://www.npmjs.com/package/bip84" },
-          { "icon": "fab fa-github", "href": "https://github.com/Anderson-Juhasc/bip84" }
+          {
+            "icon": "fas fa-link",
+            "href": "https://www.npmjs.com/package/bip84"
+          },
+          {
+            "icon": "fab fa-github",
+            "href": "https://github.com/Anderson-Juhasc/bip84"
+          }
         ]
       },
       "bip86": {
@@ -171,8 +187,14 @@
         "class": "bitcoin opensource",
         "image": "/npm.png",
         "links": [
-          { "icon": "fas fa-link", "href": "https://www.npmjs.com/package/bip86" },
-          { "icon": "fab fa-github", "href": "https://github.com/Anderson-Juhasc/bip86" }
+          {
+            "icon": "fas fa-link",
+            "href": "https://www.npmjs.com/package/bip86"
+          },
+          {
+            "icon": "fab fa-github",
+            "href": "https://github.com/Anderson-Juhasc/bip86"
+          }
         ]
       },
       "introCrypto": {
@@ -182,7 +204,10 @@
         "class": "bitcoin opensource",
         "image": "/introducao-criptomoedas.png",
         "links": [
-          { "icon": "fab fa-github", "href": "https://github.com/Anderson-Juhasc/introducao-a-criptomoedas" }
+          {
+            "icon": "fab fa-github",
+            "href": "https://github.com/Anderson-Juhasc/introducao-a-criptomoedas"
+          }
         ]
       }
     },
