@@ -57,7 +57,7 @@ export default function Contact() {
                   <i className="fa-brands fa-whatsapp"></i>
                 </a>
                 <a
-                  href="https://nostr.band/npub1f27g79lrpey73wtqa2pprn7vv3yveyytws08lxqe7pn0yuj8ppyqyk9swu"
+                  href="https://njump.me/npub1f27g79lrpey73wtqa2pprn7vv3yveyytws08lxqe7pn0yuj8ppyqyk9swu"
                   title="Nostr"
                   target="_blank"
                 >

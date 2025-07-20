@@ -125,19 +125,65 @@
       "all": "All",
       "web": "Web",
       "bitcoin": "Bitcoin",
+      "nostr": "Nostr",
       "design": "Design",
       "opensource": "Open Source"
     },
     "projects": {
+      "developerNostrBook": {
+        "title": "How to Become a Nostr Developer",
+        "subtitle": "A book on programming with Nostr",
+        "description": "AsciiDoc, Node.js, Nostr, Bitcoin, Open Source, Shell",
+        "class": "bitcoin nostr design opensource",
+        "image": "/como-tornar-se-um-desenvolvedor-nostr.jpg",
+        "links": [
+          { "icon": "fas fa-book", "href": "https://github.com/nostrlivros/como-tornar-se-um-desenvolvedor-nostr/raw/main/index.pdf" },
+          { "icon": "fab fa-github", "href": "https://github.com/nostrlivros/como-tornar-se-um-desenvolvedor-nostr/" }
+        ]
+      },
+      "nosjobs": {
+        "title": "NosJobs.space",
+        "subtitle": "The ideal job and freelance platform for those who live the decentralized future.",
+        "description": "Node.js, Nostr, Bitcoin, Open Source",
+        "class": "bitcoin nostr web design opensource",
+        "image": "/nosjobs.jpg",
+        "links": [
+          { "icon": "fas fa-link", "href": "https://nosjobs.space/" },
+          { "image": "/nostr.svg", "alt": "Nostr", "href": "https://njump.me/npub10j5hz4l6l9ea6u2nut0r66v5d07lsqjaj4jl80sf0phyanaduefsnkc4cn" },
+          { "icon": "fab fa-github", "href": "https://github.com/nosjobs" }
+        ]
+      },
       "bip84": {
         "title": "BIP84",
-        "description": "NPM package for Bitcoin BIP84 (Bech32) implementation",
-        "details": "Node.js, NPM Package, Bitcoin, Open Source"
+        "subtitle": "NPM package for BIP84 Bitcoin (Bech32) implementation",
+        "description": "Node.js, NPM Package, Bitcoin, Open Source",
+        "class": "bitcoin opensource",
+        "image": "/npm.png",
+        "links": [
+          { "icon": "fas fa-link", "href": "https://www.npmjs.com/package/bip84" },
+          { "icon": "fab fa-github", "href": "https://github.com/Anderson-Juhasc/bip84" }
+        ]
       },
-      "cryptoIntro": {
+      "bip86": {
+        "title": "BIP86",
+        "subtitle": "NPM package for BIP86 Bitcoin (Taproot) implementation",
+        "description": "Node.js, NPM Package, Bitcoin, Open Source",
+        "class": "bitcoin opensource",
+        "image": "/npm.png",
+        "links": [
+          { "icon": "fas fa-link", "href": "https://www.npmjs.com/package/bip86" },
+          { "icon": "fab fa-github", "href": "https://github.com/Anderson-Juhasc/bip86" }
+        ]
+      },
+      "introCrypto": {
         "title": "Introduction to Cryptocurrencies",
-        "description": "Introductory course about Bitcoin and cryptocurrencies",
-        "details": "Course, Introduction, Bitcoin, Open Source"
+        "subtitle": "Introductory course on Bitcoin and cryptocurrencies",
+        "description": "Course, Introduction, Bitcoin, Open Source",
+        "class": "bitcoin opensource",
+        "image": "/introducao-criptomoedas.png",
+        "links": [
+          { "icon": "fab fa-github", "href": "https://github.com/Anderson-Juhasc/introducao-a-criptomoedas" }
+        ]
       }
     },
     "cta": "Let’s work together"

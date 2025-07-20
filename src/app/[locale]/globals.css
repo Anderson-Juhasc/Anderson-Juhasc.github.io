@@ -32,7 +32,8 @@
   --secondary-color: #2c3e50;
   --accent-color: #f39c12;
   --text-color: #333;
-  --text-light: #666;
+  --text-light: #999;
+  --text-dark: #666;
   --text-white: #fff;
   --background-light: #f8f9fa;
   --background-dark: #1e293b;
@@ -177,8 +178,12 @@ p {
 }
 
 .section-header p {
-  color: var(--text-light);
+  color: var(--text-dark);
   font-size: 1.1rem;
+}
+
+.skill-header p {
+  color: var(--text-light);
 }
 
 /* ==============================
@@ -912,7 +917,7 @@ p {
   height: 200px;
 }
 
-.portfolio-image img {
+.portfolio-image > img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -984,7 +989,7 @@ p {
 }
 
 .portfolio-details p {
-  color: var(--text-light);
+  color: var(--text-dark);
   font-size: 0.9rem;
   margin-bottom: 0;
 }
@@ -1045,7 +1050,7 @@ p {
 .client-info p {
   margin-bottom: 0;
   font-size: 0.9rem;
-  color: var(--text-light);
+  color: var(--text-dark);
 }
 
 /* ==============================

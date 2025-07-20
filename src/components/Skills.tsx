@@ -6,7 +6,7 @@ export default function Skills() {
   return (
     <section id="skills" className="skills">
       <div className="container">
-        <div className="section-header">
+        <div className="section-header skill-header">
           <h2>{t("title")}</h2>
           <p>{t("subtitle")}</p>
         </div>

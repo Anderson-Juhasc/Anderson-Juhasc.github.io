@@ -2,6 +2,7 @@ import { useTranslations } from "next-intl";
 
 export default function Portfolio() {
   const t = useTranslations("Portfolio");
+  const projectKeys = Object.keys(t.raw("projects"));
 
   return (
     <section id="portfolio" className="portfolio">
@@ -12,7 +13,7 @@ export default function Portfolio() {
         </div>
 
         <div className="portfolio-filters">
-          {["all", "web", "bitcoin", "design", "opensource"].map((filter) => (
+          {["all", "web", "bitcoin", "design", "nostr", "opensource"].map((filter) => (
             <button key={filter} className="filter-btn" data-filter={filter}>
               {t(`filters.${filter}`)}
             </button>
@@ -20,93 +21,42 @@ export default function Portfolio() {
         </div>
 
         <div className="portfolio-grid">
-          <div className="portfolio-item bitcoin opensource">
-            <div className="portfolio-image">
-              <img src="/npm.png" alt="BIP84 - NPM Package" />
-              <div className="portfolio-overlay">
-                <div className="portfolio-info">
-                  <h3>BIP84</h3>
-                  <p>Pacote NPM para implementação BIP84 Bitcoin (Bech32)</p>
-                  <div className="portfolio-links">
-                    <a
-                      href="https://www.npmjs.com/package/bip84"
-                      target="_blank"
-                    >
-                      <i className="fas fa-link"></i>
-                    </a>
-                    <a
-                      href="https://github.com/Anderson-Juhasc/bip84"
-                      target="_blank"
-                    >
-                      <i className="fab fa-github"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="portfolio-details">
-              <h4>BIP84</h4>
-              <p>Node.js, NPM Package, Bitcoin, Opensource</p>
-            </div>
-          </div>
+           {projectKeys.map((key) => {
+    const project = t.raw(`projects.${key}`);
 
-          <div className="portfolio-item bitcoin opensource">
-            <div className="portfolio-image">
-              <img src="/npm.png" alt="BIP84 - NPM Package" />
-              <div className="portfolio-overlay">
-                <div className="portfolio-info">
-                  <h3>BIP86</h3>
-                  <p>Pacote NPM para implementação BIP86 Bitcoin (Taproot)</p>
-                  <div className="portfolio-links">
-                    <a
-                      href="https://www.npmjs.com/package/bip86"
-                      target="_blank"
-                    >
-                      <i className="fas fa-link"></i>
+    return (
+      <div key={key} className={`portfolio-item ${project.class}`}>
+        <div className="portfolio-image">
+          <img src={project.image} alt={project.title} />
+          <div className="portfolio-overlay">
+            <div className="portfolio-info">
+              <h3>{project.title}</h3>
+              <p>{project.subtitle}</p>
+              <div className="portfolio-links">
+                {project.links.map((link, i) =>
+                  link.image ? (
+                    <a key={i} href={link.href} target="_blank" title={link.alt}>
+                      <img src={link.image} alt={link.alt} />
                     </a>
-                    <a
-                      href="https://github.com/Anderson-Juhasc/bip86"
-                      target="_blank"
-                    >
-                      <i className="fab fa-github"></i>
+                  ) : (
+                    <a key={i} href={link.href} target="_blank">
+                      <i className={link.icon}></i>
                     </a>
-                  </div>
-                </div>
+                  )
+                )}
               </div>
-            </div>
-            <div className="portfolio-details">
-              <h4>BIP86</h4>
-              <p>Node.js, NPM Package, Bitcoin, Opensource</p>
-            </div>
-          </div>
-
-          <div className="portfolio-item bitcoin opensource">
-            <div className="portfolio-image">
-              <img
-                src="/introducao-criptomoedas.png"
-                alt="Introdução a Criptomoedas"
-              />
-              <div className="portfolio-overlay">
-                <div className="portfolio-info">
-                  <h3>Introdução a Criptomoedas</h3>
-                  <p>Curso introdutório sobre Bitcoin e criptomoedas</p>
-                  <div className="portfolio-links">
-                    <a
-                      href="https://github.com/Anderson-Juhasc/introducao-a-criptomoedas"
-                      target="_blank"
-                    >
-                      <i className="fab fa-github"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="portfolio-details">
-              <h4>Introdução a Criptomoedas</h4>
-              <p>Curso, introdução, Bitcoin, Opensource</p>
             </div>
           </div>
         </div>
+        <div className="portfolio-details">
+          <h4>{project.title}</h4>
+          <p>{project.description}</p>
+        </div>
+      </div>
+    );
+  })}
+        </div>
+        
         <div className="portfolio-more">
           <a href="#contact" className="btn-primary">
             {t("cta")}
