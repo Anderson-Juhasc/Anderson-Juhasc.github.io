@@ -55,7 +55,7 @@
     ],
     "location": "Sao Paulo, Brazil",
     "email": "anderson.juhasc@gmail.com",
-    "workflow": "Workflow: Linux, VIM e GIT",
+    "workflow": "Workflow: Linux, NVIM e GIT",
     "startProject": "Start a Project",
     "downloadCV": "Download CV"
   },
@@ -161,6 +161,26 @@
             "href": "https://njump.me/npub10j5hz4l6l9ea6u2nut0r66v5d07lsqjaj4jl80sf0phyanaduefsnkc4cn"
           },
           { "icon": "fab fa-github", "href": "https://github.com/nosjobs" }
+        ]
+      },
+      "sappie": {
+        "title": "Sappie",
+        "subtitle": "Flashcards Inteligentes: Estude rápido, lembre tudo e se divirta!",
+        "description": "Next.js",
+        "class": "web design",
+        "image": "/sappie.jpg",
+        "links": [
+          { "icon": "fas fa-link", "href": "https://www.sappie.com.br/" }
+        ]
+      },
+      "walltime": {
+        "title": "Walltime",
+        "subtitle": "Bitcoin Brazilian exchange",
+        "description": "HTML, SASS, JavaScript, Redesign, Web Design",
+        "class": "web design bitcoin",
+        "image": "/walltime.png",
+        "links": [
+          { "icon": "fa-brands fa-behance", "href": "https://www.behance.net/gallery/108493783/Crypto-Currency-Exchange-Platform-Walltime-Redesigned" }
         ]
       },
       "bip84": {
